@@ -114,3 +114,4 @@ C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.csproj.CoreCompileInputs.cache
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\OdeToFood.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
