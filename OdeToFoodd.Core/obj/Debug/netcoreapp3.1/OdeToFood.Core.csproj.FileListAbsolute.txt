@@ -1,0 +1,9 @@
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.deps.json
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.dll
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\bin\Debug\netcoreapp3.1\OdeToFood.Core.pdb
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.csprojAssemblyReference.cache
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfoInputs.cache
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.AssemblyInfo.cs
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.csproj.CoreCompileInputs.cache
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.dll
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Core\obj\Debug\netcoreapp3.1\OdeToFood.Core.pdb
