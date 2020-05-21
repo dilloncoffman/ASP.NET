@@ -18,6 +18,9 @@ namespace OdeToFood.Pages.Restaurants
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        [BindProperty(SupportsGet =true)]
+        public string SearchTerm { get; set; } // search term bound to the search input in HTML but is also what is passed to method to actuall search
+
 
         public IndexModel(IConfiguration config, IRestaurantData restaurantData)
         {
@@ -28,7 +31,7 @@ namespace OdeToFood.Pages.Restaurants
         public void OnGet()
         {
             Message = "Hello, World!";
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }
