@@ -151,3 +151,4 @@ C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFood\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
