@@ -18,6 +18,8 @@ namespace OdeToFood.Pages.Restaurants
             this.restaurantData = restaurantData;
         }
 
+        [TempData] // assigns value to TempData key that matches the name of this field (in EditModel we use TempData to set a "Restaurant saved!" string to show the user after editing or adding a new restaurant)
+        public string Message { get; set; }
         public Restaurant Restaurant { get; set; }
         public IActionResult OnGet(int restaurantId)
         {

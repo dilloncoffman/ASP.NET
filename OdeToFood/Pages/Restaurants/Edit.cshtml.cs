@@ -14,6 +14,7 @@ namespace OdeToFood.Pages.Restaurants
         private readonly IHtmlHelper htmlHelper;
 
         // Use this data service to create a property the view can bind to
+        [BindProperty]
         public Restaurant Restaurant { get; set; }
         public IEnumerable<SelectListItem> Cuisines { get; set; }
 
@@ -23,15 +24,45 @@ namespace OdeToFood.Pages.Restaurants
             this.htmlHelper = htmlHelper;
         }
 
-        public IActionResult OnGet(int restaurantId)
+        public IActionResult OnGet(int? restaurantId) // ? makes restaurantId nullable
         {
             Cuisines = htmlHelper.GetEnumSelectList<CuisineType>();
-            Restaurant = restaurantData.GetById(restaurantId);
+            if(restaurantId.HasValue)
+            {
+                Restaurant = restaurantData.GetById(restaurantId.Value);
+            }
+            else
+            {
+                Restaurant = new Restaurant();
+            }
+            
             if (Restaurant == null)
             {
                 return RedirectToPage("./NotFound"); // redirect user to NotFound
             }
             return Page(); // returns normal page
+        }
+
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                Cuisines = htmlHelper.GetEnumSelectList<CuisineType>();
+                return Page();
+            }
+
+            if(Restaurant.Id > 0)
+            {
+                Restaurant = restaurantData.Update(Restaurant);
+            }
+            else
+            {
+                restaurantData.Add(Restaurant);
+            }
+
+            restaurantData.Commit();
+            TempData["Message"] = "Restaurant saved!";
+            return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id }); // use anonymously typed objects to pass route values
         }
     }
 }
