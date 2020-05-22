@@ -6,7 +6,10 @@ C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\bin\Debug\netcor
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csprojAssemblyReference.cache
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.AssemblyInfoInputs.cache
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.AssemblyInfo.cs
-C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CopyComplete
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.dll
 C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.pdb
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.json
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\bin\Debug\netcoreapp3.1\OdeToFood.Data.runtimeconfig.dev.json
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\dcoffman\Desktop\pluralsight\OdeToFood\OdeToFoodd.Data\obj\Debug\netcoreapp3.1\OdeToFood.Data.genruntimeconfig.cache
